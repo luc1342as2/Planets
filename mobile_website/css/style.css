@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: rgb(66, 209, 66);
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+footer {
+    background-color: rgb(66, 209, 66);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+footer p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+.planet-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planet-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#distance-heading,
+#planet-color,
+#planet-radius {
+    text-align: left;
+}
+
+#planet-km li {
+    text-align: left;
+    list-style-type: none;
+}
+
+@media (orientation: portrait) {
+    #planet-info {
+        background-size: 400px;
+    }
+
+    #planet-name {
+        text-align: center;
+    }
+
+}
+
+@media (orientation: landscape) {
+    #planet-info {
+        background-size: 300px
+    }
+
+    #planet-name {
+        text-align: left;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+}
