@@ -1,1 +1,1 @@
-# Planets
+I created the Planets project as an exploration of celestial objects and their characteristics. This project is designed to provide an interactive and engaging way to learn about planets, featuring detailed information and visuals. It demonstrates my ability to combine creative design with educational content to create an impactful user experience.
